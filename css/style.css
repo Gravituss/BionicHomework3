@@ -80,7 +80,7 @@ div {
 	float: left;
 	max-width: 800px;
 
-	margin-top: 150px;
+	
 }
 
 .middle-block {
@@ -141,14 +141,51 @@ div {
 
 .total-middle-container {
 	overflow: hidden;
-	margin:auto;
+	margin: auto;
+	margin-top: 150px;
+	max-width: 1140px;
 
 }
 
-.right-menu {
-	max-width: 300px;
+.right-container {
+	
 	float: right;
+	max-width: 300px;
+	background-color: #9999cc;
 }
+
+.footer {
+	font-size: 33px;
+	background-color: #447744;
+	margin: auto;
+	max-width: 1140px;
+}
+
+.footer img {
+	float: left;
+	border-right: 1px solid white;
+	padding-top: 31px;
+	padding-bottom: 31px;
+	padding-left: 2px;
+	padding-right: 5px;
+	
+}
+
+.copyright {
+	float: left;
+	font-size: 20px;
+	color: white;
+}
+
+.logo-and-copyright {
+	overflow: hidden;
+	opacity: 0.5;
+}
+
+.footer-container {
+	background-color: #282f37;
+}
+
 
 
 
