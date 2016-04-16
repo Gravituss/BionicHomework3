@@ -69,7 +69,7 @@ div {
 	
 	float: left;
 	max-width: 800px;
-	background-color: gray;
+	
 	margin: auto;
 	margin-top: 150px;
 }
@@ -77,8 +77,16 @@ div {
 .middle-block {
 	font-size: 25px;
 	margin: 15px;
+	background-color: #8a8a8a;
 	
 	
+}
+
+.micro-header-and-button {
+	background-color: #eaeff2;
+	margin: 1px;
+	margin-top: 1px;
+	max-width: 500px;
 }
 
 .arrow {
@@ -89,6 +97,10 @@ div {
   width: 11px;
   height: 15px;
   z-index: 95;
+}
+
+.button .in-details {
+	
 }
 
 
