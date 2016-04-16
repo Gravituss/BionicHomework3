@@ -14,11 +14,12 @@ div {
 	letter-spacing: 1px;
 	position: fixed;
 	top:0;
-	left: 50px;
 
-
+	margin: auto;
 
 }
+
+
 
 .header-box {
 	width: 1132px;
@@ -31,6 +32,7 @@ div {
 .logo-container {
 	float: left;
 	margin-top: 8px;
+	margin-left: 5px;
 
 }
 
@@ -53,11 +55,13 @@ div {
 	background-color: #2697dd;
 	text-transform: uppercase;
 	color: white;
+	border-radius: 2px;
 }
 
 .horizontal-line {
 	height: 1px;
 	background-color: #242a31;
+
 }
 
 .horizontal-line2 {
@@ -69,8 +73,7 @@ div {
 	
 	float: left;
 	max-width: 800px;
-	
-	margin: auto;
+
 	margin-top: 150px;
 }
 
@@ -86,10 +89,10 @@ div {
 	background-color: #eaeff2;
 	margin: 1px;
 	margin-top: 1px;
-	max-width: 500px;
+	max-width: 620px;
 }
 
-.arrow {
+/*.arrow {
   background-image: url("images/arrow.png");
   position: absolute;
   left: 911px;
@@ -97,10 +100,19 @@ div {
   width: 11px;
   height: 15px;
   z-index: 95;
-}
+}*/
 
 .button .in-details {
+
+	float: right;
 	
+}
+
+.header-box .button {
+
+	position: relative;
+	bottom: 20px;
+
 }
 
 
