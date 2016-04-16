@@ -1,5 +1,10 @@
-div {
+body {
+	background-color: #e5e7e9;
 
+}
+
+div {
+	font-family: "Myriad Pro";
 }
 
 .header {
@@ -8,6 +13,8 @@ div {
 	color: white;
 	letter-spacing: 1px;
 	position: fixed;
+	top:0;
+	left: 50px;
 
 
 
@@ -17,7 +24,7 @@ div {
 	width: 1132px;
 	height: 71px;
 	margin: auto;
-	font-family: "Myriad Pro";
+	
 	text-transform: uppercase;
 }
 
@@ -41,9 +48,11 @@ div {
 .button {
 	float: right;
 	font-size: 13px;
-	padding: 10px;
-	height: 30px;	
+	padding: 8px;
+	height: 12px;	
 	background-color: #2697dd;
+	text-transform: uppercase;
+	color: white;
 }
 
 .horizontal-line {
@@ -56,13 +65,30 @@ div {
 	background-color: #313841;
 }
 
+.middle-container {
+	
+	float: left;
+	max-width: 800px;
+	background-color: gray;
+	margin: auto;
+	margin-top: 150px;
+}
+
 .middle-block {
 	font-size: 25px;
 	margin: 15px;
 	
-	width: 1132px;
-}
-
-.button span[value=\"Войти\"]{
 	
 }
+
+.arrow {
+  background-image: url("images/arrow.png");
+  position: absolute;
+  left: 911px;
+  top: 164px;
+  width: 11px;
+  height: 15px;
+  z-index: 95;
+}
+
+
