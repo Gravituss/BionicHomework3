@@ -78,18 +78,24 @@ div {
 }
 
 .middle-block {
+
 	font-size: 25px;
 	margin: 15px;
-	background-color: #8a8a8a;
+	background-color: #fff;
 	
 	
 }
 
+.micro-header {
+	float: left;
+}
+
 .micro-header-and-button {
+	overflow: hidden;
 	background-color: #eaeff2;
 	margin: 1px;
-	margin-top: 1px;
-	max-width: 620px;
+	border-top: 1px solid white;
+	max-width: auto;
 }
 
 /*.arrow {
@@ -102,12 +108,10 @@ div {
   z-index: 95;
 }*/
 
-.button .in-details {
+.micro-header-and-button .button {
 
 	float: right;
-	
 }
-
 .header-box .button {
 
 	position: relative;
