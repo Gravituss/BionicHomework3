@@ -14,6 +14,18 @@
 }
 
 .logo-container {
+	float: left;
+
+}
+
+.top-menu li {
+	display: inline-block;
+	font-size: 15px;
+	font-family: "Myriad pro Semibold";
+	color: white;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin: 10px;
 
 }
 
