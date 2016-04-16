@@ -82,8 +82,7 @@ div {
 	font-size: 25px;
 	margin: 15px;
 	background-color: #fff;
-	
-	
+	color: #225874;
 }
 
 .micro-header {
@@ -96,6 +95,7 @@ div {
 	margin: 1px;
 	border-top: 1px solid white;
 	max-width: auto;
+	padding: 15px;
 }
 
 /*.arrow {
@@ -118,5 +118,29 @@ div {
 	bottom: 20px;
 
 }
+
+.mb-text {
+	font-size: 14.9px;
+	letter-spacing: 1px;
+	color: #225874;
+	line-height: 22px;
+}
+
+.mb-text p {
+	margin-top: 9px;
+}
+
+.total-middle-container {
+	overflow: hidden;
+	margin:auto;
+
+}
+
+.right-menu {
+	max-width: 300px;
+	float: right;
+}
+
+
 
 
