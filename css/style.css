@@ -276,6 +276,10 @@ hr.one-line {
 	
 }
 
+.right-list a:before {
+	
+}
+
 .right-menu-box a:visited {
 	color: #225874;
 }
