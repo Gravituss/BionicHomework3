@@ -197,17 +197,44 @@ div {
 	overflow: hidden;
 	opacity: 0.5;
 	margin-top: 42px;
+	float: left;
 }
+
+.footer-container .footer-menu {
+	float: right;
+}
+
+.footer-menu li {
+	display: inline-block;
+	font-size: 14px;
+	color: #61666c;
+	
+	
+	text-transform: uppercase;
+	margin:5px;
+
+}
+
+.footer-menu li:hover {
+	color: #2697dd;
+}	
 
 .footer-container {
 	background-color: #282f37;
+	overflow: hidden;
+	/*width: 500px;*/
+	max-width: 1000px;
+
 }
+
 
 .background-block {
 	background-color: #282f37;
 	width: auto;
 	height: 170px;
 }
+
+
 
 
 
