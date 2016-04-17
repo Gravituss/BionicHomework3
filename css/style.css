@@ -12,10 +12,14 @@ div {
 	height: 90px;
 	color: white;
 	letter-spacing: 1px;
+	
+	
 	position: fixed;
 	top:0;
+	right:50%;
+	margin-right:-720px; /*Should be 50% of the below value*/
+	width: 1440px;
 
-	margin: auto;
 
 }
 
@@ -104,6 +108,12 @@ div {
 	padding: 15px;
 }
 
+.middle-block:last-child {
+
+	margin-bottom: 70px;
+}
+
+
 /*.arrow {
   background-image: url("images/arrow.png");
   position: absolute;
@@ -128,6 +138,7 @@ div {
 	letter-spacing: 1px;
 	color: #225874;
 	line-height: 22px;
+	padding: 20px;
 }
 
 .mb-text p {
@@ -156,16 +167,18 @@ div {
 
 .footer {
 	font-size: 33px;
-	background-color: #447744;
+	/*background-color: #447744;*/
+	position: absolute;
 	margin: auto;
 	max-width: 1140px;
+	left: 100px;
 }
 
 .footer img {
 	float: left;
 	border-right: 1px solid white;
 	padding-top: 31px;
-	padding-bottom: 31px;
+	padding-bottom: 32px;
 	padding-left: 2px;
 	padding-right: 5px;
 	
@@ -173,17 +186,27 @@ div {
 
 .copyright {
 	float: left;
-	font-size: 20px;
+	font-size: 14.5px;
 	color: white;
+	padding-top: 33px;
+	padding-left: 15px;
+	letter-spacing: 1px;
 }
 
 .logo-and-copyright {
 	overflow: hidden;
 	opacity: 0.5;
+	margin-top: 42px;
 }
 
 .footer-container {
 	background-color: #282f37;
+}
+
+.background-block {
+	background-color: #282f37;
+	width: auto;
+	height: 170px;
 }
 
 
