@@ -276,8 +276,8 @@ hr.one-line {
 	
 }
 
-.right-list a:before {
-	
+.right-list img {
+	padding: 12px;
 }
 
 .right-menu-box a:visited {
