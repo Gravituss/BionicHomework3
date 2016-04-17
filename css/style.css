@@ -239,17 +239,51 @@ hr.one-line {
 }
 
 .right-container {
-	
+	margin: 15px;
 	float: right;
-	max-width: 200px;
-	background-color: #66aa66;
+	max-width: 270px;
+	background-color: #f2f5f7;
+	
+}
+
+.menu-img {
+	float: right;
+	margin: 15px;
+}
+
+.right-header span {
+
+	margin: 15px;
+	text-transform: uppercase;
+}
+
+.right-header {
+	overflow: hidden;
+	background-color: #d5dfe6;
+	margin: 1px;
+	/*padding-top: 6px;*/
+}
+
+.right-list li:hover {
+	background-color: white;
+	width: 270px;
 }
 
 .right-menu-box {
 	color: #225874;
-	font-size: 23px;
-	text-transform: uppercase;
+	font-size: 20px;
+	
+	
 }
+
+.right-menu-box a:visited {
+	color: #225874;
+}
+
+.right-menu-box a {
+	color: #225874;
+}
+
 
 .footer {
 	font-size: 33px;
