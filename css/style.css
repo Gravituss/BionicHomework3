@@ -1,10 +1,13 @@
 body {
 	background-color: #e5e7e9;
-
 }
 
 div {
 	font-family: "Myriad Pro";
+}
+
+a {
+	text-decoration: none;
 }
 
 .header {
@@ -12,24 +15,22 @@ div {
 	height: 90px;
 	color: white;
 	letter-spacing: 1px;
-	
-	
 	position: fixed;
 	top:0;
 	right:50%;
 	margin-right:-30000px; 
 	width: 60000px;
-
-
+	z-index: 30;
 }
 
-
+.header a {
+	color: white;
+}
 
 .header-box {
 	width: 1132px;
 	height: 71px;
 	margin: auto;
-	
 	text-transform: uppercase;
 }
 
@@ -60,12 +61,9 @@ ul {
 
 
 .header-box .button {
-
 	position: relative;
 	right: 150px;
 	bottom: 15px;
-
-
 }
 
 .button {
@@ -76,6 +74,38 @@ ul {
 	text-transform: uppercase;
 	color: white;
 	border-radius: 2px;
+}
+
+li.active{
+	top: 20px;
+	left: 40px;
+	z-index: 96;
+}
+
+.dropdown{
+	position: relative;
+}
+
+.sub-menu{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 10px;
+	width: 170px;
+	padding: 0;
+	background-color: #242a31;
+}
+
+.sub-menu li{
+	display: block;
+	text-align: left;
+	padding: 10px;
+}
+.sub-menu li:hover{
+	background-color: #2697dd;
+}
+.dropdown:hover .sub-menu{
+	display: block;
 }
 
 .header .horizontal-line {
@@ -127,7 +157,6 @@ ul {
 	background-color: #eaeff2;
 	margin: 1px;
 	border-top: 1px solid white;
-	max-width: auto;
 	padding: 14px;
 }
 
@@ -138,7 +167,9 @@ ul {
 
 
 
-
+.in-details a {
+	color: white;
+}
 
 
 
@@ -179,6 +210,7 @@ hr.one-line {
 }
 
 .time-and-name {
+
 	display: flex;
 	align-items: center;
 	margin: 20px;
@@ -201,7 +233,7 @@ hr.one-line {
 .total-middle-container {
 	overflow: hidden;
 	margin: auto;
-	margin-top: 150px;
+	margin-top: 125px;
 	max-width: 1140px;
 
 }
@@ -210,16 +242,29 @@ hr.one-line {
 	
 	float: right;
 	max-width: 200px;
-	background-color: #9999cc;
+	background-color: #66aa66;
+}
+
+.right-menu-box {
+	color: #225874;
+	font-size: 23px;
+	text-transform: uppercase;
 }
 
 .footer {
 	font-size: 33px;
-	/*background-color: #447744;*/
 	position: absolute;
 	margin: auto;
 	max-width: 1140px;
 	left: 100px;
+}
+
+/*.footer a:visited {
+	color: #61666c;
+}*/
+
+.footer a {
+	color: #61666c;
 }
 
 .footer .horizontal-line {
@@ -287,12 +332,16 @@ hr.one-line {
 	padding-left: 5px;
 }
 
+.footer-menu a:hover {
+	color: #2697dd;
+}	
+
 .footer-menu li:hover {
 	color: #2697dd;
 }	
 
 .footer-container {
-	border: 2px solid yellow;
+	/*border: 2px solid yellow;*/
 	overflow: hidden;
 	/*width: 500px;*/
 	max-width: 1000px;
