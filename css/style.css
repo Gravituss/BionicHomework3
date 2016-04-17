@@ -243,7 +243,7 @@ hr.one-line {
 	border-right: 1px solid white;
 	padding-top: 31px;
 	padding-bottom: 32px;
-	padding-left: 2px;
+	padding-left: 22px;
 	padding-right: 5px;
 	
 }
@@ -275,11 +275,16 @@ hr.one-line {
 	color: #61666c;
 
 	
-	letter-spacing: 0.5px;
+	letter-spacing: 0.3px;
 	text-transform: uppercase;
-	margin: 14.8px;
+	margin: 14px;
 	padding-top: 71px;
+	font-weight: 600;
 
+}
+
+.footer-menu:first-child {
+	padding-left: 5px;
 }
 
 .footer-menu li:hover {
