@@ -3,7 +3,9 @@ body {
 }
 
 div {
-	font-family: "Myriad Pro";
+	font-family: "Open Sans", "Myriad Pro", sans-serif;
+	font-weight: 600;
+
 }
 
 a {
@@ -246,8 +248,24 @@ hr.one-line {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	border: 1px solid white;
+	overflow: hidden;
 
 }
+
+.search-container img {
+	margin-top: 20px;
+	margin-bottom: 19px;
+	margin-right: 20px;
+	float: right;
+}
+
+.search-container input::-webkit-input-placeholder {
+	color: red;
+	margin-top: 5px;
+
+}
+
+
 
 .search-text-box input[type="text"] {
 	background-color: blue;
@@ -265,7 +283,7 @@ hr.one-line {
 .right-container {
 	
 	float: right;
-	max-width: 270px;
+	max-width: 300px;
 	
 	
 }
