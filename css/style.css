@@ -131,7 +131,7 @@ li.active{
 .middle-container {
 	
 	float: left;
-	max-width: 830px;
+	max-width: 800px;
 
 	
 }
@@ -139,7 +139,8 @@ li.active{
 .middle-block {
 
 	font-size: 25px;
-	margin: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 	background-color: #fff;
 	color: #225874;
 }
@@ -240,8 +241,12 @@ hr.one-line {
 
 .search-container {
 	background-color: #d5dfe6;
-	width: 300px;
+	width: 298px;
 	height: 60px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 1px solid white;
+
 }
 
 .search-text-box {
@@ -250,7 +255,7 @@ hr.one-line {
 }
 
 .right-container {
-	margin: 15px;
+	
 	float: right;
 	max-width: 270px;
 	
