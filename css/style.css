@@ -48,7 +48,7 @@ a {
 	max-width: 350px;
 }
 
-.top-menu li {
+.top-menu>ul>li {
 	display: inline-block;
 	font-size: 13.5px;
 	margin: 15px;
@@ -57,7 +57,7 @@ a {
 
 }
 
-ul {
+.top-menu ul.main-top-menu {
 	width: 500px;
 }
 
@@ -112,22 +112,30 @@ li.active{
 	display: none;
 	position: absolute;
 	left: 0;
-	top: 10px;
-	width: 170px;
+	top: 15px;
+	width: 128px;
 	padding: 0;
 	background-color: #242a31;
+	border: 1px solid #1e2227;
+	text-transform: none;
+
 }
 
 .sub-menu li{
 	display: block;
 	text-align: left;
-	padding: 10px;
+	padding: 0px;
+	width: 130px;
+	margin-left: 1px;
+	padding: 9px;
 }
 .sub-menu li:hover{
 	background-color: #2697dd;
+	width: 108px;
 }
 .dropdown:hover .sub-menu{
 	display: block;
+
 }
 
 .header .horizontal-line {
@@ -415,10 +423,12 @@ hr.one-line {
 .footer img {
 	float: left;
 	border-right: 1px solid white;
+	margin-top: 42px;
 	padding-top: 31px;
 	padding-bottom: 32px;
 	padding-left: 22px;
 	padding-right: 5px;
+	opacity: 0.55;
 	
 }
 
@@ -426,23 +436,26 @@ hr.one-line {
 	float: left;
 	font-size: 13.8px;
 	color: white;
-	padding-top: 30px;
+	padding-top: 71px;
 	padding-left: 15px;
 	letter-spacing: 0.3px;
 	line-height: 19px;
 	font-weight: 400;
+	opacity: 0.55;
 }
 
 
 
 .footer-menu {
 	float: right;
+	margin-top: 82px;
 }
 
 .footer-menu li {
 	display: inline-block;
-	font-size: 14.5px;
+	font-size: 13.5px;
 	color: #61666c;
+	margin-left: 30px;
 
 	
 	/*letter-spacing: 0.3px;*/
@@ -469,6 +482,7 @@ hr.one-line {
 	max-width: 1140px;
 	margin: auto;
 	background-color: #282f37;
+	height: 170px;
 	
 
 
