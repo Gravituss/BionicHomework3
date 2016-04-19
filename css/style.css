@@ -66,8 +66,27 @@ ul {
 	position: relative;
 	right: 0px;
 	bottom: 29px;
-	
+	overflow: hidden;
+	padding-top: 4px;
+	padding-bottom: 3px;
 }
+
+.header-box .button .micro-pic {
+	float: left;
+	margin-left: 9px;
+}
+
+.header-box .button span {
+	float: right;
+	margin-top: 6px;
+	margin-right: 8px;
+	margin-left: 4px;
+	letter-spacing: 0.3px;
+	font-size: 11.4px;
+
+}
+
+
 
 .button {
 	float: right;
@@ -265,19 +284,37 @@ hr.one-line {
 }
 
 .search-container input::-webkit-input-placeholder {
-	color: red;
-	margin-top: 5px;
+	color: #225874;
+	margin-top: 22px;
+	font-weight: 600;
+	font-size: 13.6px;
+	letter-spacing: 0.3px;
+	opacity: 0.97;
 
+
+}
+
+.txt-search:focus, input:focus {
+    color: #225874;
+    font-size: 13.6px;
+    margin-left: 17px;
+}
+
+.txt-search, input {
+    color: #225874;
+    font-size: 13.6px;
+    margin-left: 17px;
 }
 
 
 
 .search-text-box input[type="text"] {
-	background-color: blue;
-	border-left: 2px solid red;
-	height: 23px;
+	background-color: #d5dfe6;
+	border-left: 2px solid #225874;
+	height: 24px;
 	margin-top: 18px;
 	margin-bottom: 18px;
+	margin-left: 18px;
 }
 
 .search-text-box {
