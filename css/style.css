@@ -249,6 +249,14 @@ hr.one-line {
 
 }
 
+.search-text-box input[type="text"] {
+	background-color: blue;
+	border-left: 2px solid red;
+	height: 23px;
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+
 .search-text-box {
 	margin-bottom: 20px;
 	
