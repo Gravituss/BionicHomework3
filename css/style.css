@@ -65,7 +65,7 @@ a {
 .header-box .button {
 	position: relative;
 	right: 0px;
-	bottom: 29px;
+	bottom: 37px;
 	overflow: hidden;
 	padding-top: 4px;
 	padding-bottom: 3px;
@@ -370,7 +370,7 @@ hr.one-line {
 
 .right-menu-box {
 	color: #225874;
-	font-size: 20px;
+	font-size: 14px;
 	background-color: #f2f5f7;
 	
 }
@@ -379,12 +379,17 @@ hr.one-line {
 	padding: 12px;
 }
 
+.right-menu-box li {
+	vertical-align: text-top;
+}
+
 .right-menu-box a:visited {
 	color: #225874;
 }
 
 .right-menu-box a {
 	color: #225874;
+	padding-bottom: 2px;
 }
 
 
